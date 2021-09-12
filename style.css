@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap');
+:root {
+    --var-background1: url('wp2856121-hd-gif-wallpapers.gif');
+    --var-background2: url('76YM.gif');
+}
+
+* {
+    font-family: 'Almarai', sans-serif;
+}
+
+.the_body {
+    background-image: var(--var-background1);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+
+h1 {
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-family: 'Almarai', sans-serif;
+}
+
+h1:hover {
+    color: red;
+}
+
+#div1:hover {
+    background-image: var(--var-background2);
+}
+
+#div1 {
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: fit-content;
+    margin-left: 60px;
+}
+
+#div1::first-line {
+    color: orange;
+}
+
+#div2 {
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: fit-content;
+    margin-left: 100px;
+}
+
+#div3 {
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: fit-content;
+    margin-left: 180px;
+}
+
+#div4::first-letter {
+    color: yellow;
+}
+
+#div2:hover {
+    background-image: var(--var-background2);
+}
+
+#div3:hover {
+    background-image: var(--var-background2);
+}
+
+.arrow1 {
+    transform: rotate(80deg);
+    width: 60px;
+    height: 60px;
+    margin-left: 200px;
+}
+
+.the_img2 {
+    margin-left: 180px;
+}
+
+
+/* ==================================================================== Buttons ======================================================= */
+
+#a1 {
+    color: red;
+    font-size: 1.6em;
+    font-family: 'Almarai', sans-serif;
+    margin-left: 1060px;
+    margin-top: -510px;
+    display: flex;
+    /* flex not importnant to be known now so let it i will clarify in suitable moment */
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+
+/*
+@keyframes example {
+    from {
+        color: pink;
+    }
+    to {
+        color: orange;
+    }
+}
+*/
+
+
+/* or you can use another way of key frames */
+
+@keyframes example {
+    0% {
+        color: pink;
+    }
+    25% {
+        color: orange;
+    }
+    35% {
+        color: red;
+    }
+    75% {
+        color: blue;
+    }
+    60% {
+        color: rgb(122, 190, 44);
+    }
+    10% {
+        color: rgb(170, 27, 170);
+    }
+    20% {
+        color: rgb(9, 187, 134);
+    }
+}
+
+#a2 {
+    color: white;
+    font-family: 'Almarai', sans-serif;
+    display: flex;
+    font-size: 1.3em;
+    list-style-type: none;
+    margin-left: 1090px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#a2:hover {
+    color: rgb(103, 223, 231);
+}
+
+#a2:visited {
+    color: orange;
+}
+
+#a2:active {
+    color: red;
+}
+
+#a2:link {
+    color: yellow;
+}
+
+#a3 {
+    color: white;
+    font-family: 'Almarai', sans-serif;
+    display: flex;
+    font-size: 1.3em;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 1040px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#a3:hover {
+    color: rgb(103, 223, 231);
+}
+
+#a3:visited {
+    color: orange;
+}
+
+#a3:active {
+    color: red;
+}
+
+#a3:link {
+    color: yellow;
+}
+
+#a4 {
+    color: white;
+    font-family: 'Almarai', sans-serif;
+    display: flex;
+    font-size: 1.3em;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 1090px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#a4:hover {
+    color: rgb(103, 223, 231);
+}
+
+#a4:visited {
+    color: orange;
+}
+
+#a4:active {
+    color: red;
+}
+
+#a4:link {
+    color: yellow;
+}
+
+#a5 {
+    color: white;
+    font-family: 'Almarai', sans-serif;
+    display: flex;
+    font-size: 1.3em;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 1110px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#a5:hover {
+    color: rgb(103, 223, 231);
+}
+
+#a5:visited {
+    color: orange;
+}
+
+#a5:active {
+    color: red;
+}
+
+#a5:link {
+    color: yellow;
+}
+
+#div88 {
+    color: white;
+    margin-left: 1080px;
+    transform: rotate(-40deg);
+    font-size: 2.2em;
+    display: flex;
+    margin-top: 110px;
+}
